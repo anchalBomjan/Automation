@@ -1,0 +1,13 @@
+{
+  "name": "automation-tms",
+  "version": "1.0.0",
+  "description": "TMS Login Automation Tests",
+  "scripts": {
+    "test": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^25.5.0",
+    "dotenv": "^16.3.1"
+  }
+}
