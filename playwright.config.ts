@@ -10,9 +10,9 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
-  reporter: [['list']],
+  reporter: 'html',
   use: {
-    baseURL: process.env.TMS_BASE_URL || 'https://tms-qa.fewapos.com',
+    baseURL: process.env.TMS_BASE_URL || 'https://@@@@@@@',
     trace: 'on-first-retry',
   },
 
