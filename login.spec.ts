@@ -4,7 +4,7 @@ test('login typing fix', async ({ page }) => {
   // Get credentials from environment variables
   const username = process.env.TMS_USERNAME || '################';
   const password = process.env.TMS_PASSWORD || '******************';
-  const baseUrl = process.env.TMS_BASE_URL || 'https://tms-qa.fewapos.com';
+  const baseUrl = process.env.TMS_BASE_URL || 'https://@@@@@@@@@@';
 
   await page.goto(`${baseUrl}/login`);
 
